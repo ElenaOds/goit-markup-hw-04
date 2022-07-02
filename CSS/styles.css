@@ -260,26 +260,26 @@ section {
     content: "";
     height: 120px;
     background-color: #F5F4FA;
-    background-size: contain;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 4px;
 }
 
 .features .item.item:nth-child(1)::before {
-    background-image: url("../images/antenna1.svg");
+    background-image: url("../images/icons/antenna.svg");
 }
 
 .features .item.item:nth-child(2)::before {
-    background-image: url("../images/clock1.svg");
+    background-image: url("../images/icons/clock.svg");
 }
 
 .features .item.item:nth-child(3)::before {
-    background-image: url("../images/diagram1.svg");
+    background-image: url("../images/icons/diagram.svg");
 }
 
 .features .item.item:nth-child(4)::before {
-    background-image: url("../images/astronaut1.svg");
+    background-image: url("../images/icons/astronaut.svg");
 }
 
 
